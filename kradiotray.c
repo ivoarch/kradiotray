@@ -79,11 +79,11 @@ static void setup() {
   gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(stop_item),
                                 gtk_image_new_from_stock(GTK_STOCK_MEDIA_STOP, GTK_ICON_SIZE_MENU));
   gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(voldown_item),
-                                gtk_image_new_from_file("/usr/share/icons/gnome/24x24/status/audio-volume-low.png")); // GTK_ICON_SIZE_MENU));
+                                gtk_image_new_from_file("/usr/share/icons/gnome/24x24/status/audio-volume-low.png"));
   gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(volup_item),
-                                gtk_image_new_from_file("/usr/share/icons/gnome/24x24/status/audio-volume-medium.png")); //GTK_ICON_SIZE_MENU));
+                                gtk_image_new_from_file("/usr/share/icons/gnome/24x24/status/audio-volume-medium.png"));
   gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(mute_item),
-                                gtk_image_new_from_file("/usr/share/icons/gnome/24x24/status/audio-volume-muted.png"));// GTK_ICON_SIZE_MENU));
+                                gtk_image_new_from_file("/usr/share/icons/gnome/24x24/status/audio-volume-muted.png"));
 
   /* Registration of callbacks */
   g_signal_connect(play_item, "activate",
